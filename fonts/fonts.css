@@ -1,0 +1,180 @@
+@font-face {
+    font-family: 'sfu_dinengalt';
+    src: url('sfudinengalt-webfont.eot');
+    src: url('sfudinengalt-webfont.eot?#iefix') format('embedded-opentype'),
+         url('sfudinengalt-webfont.woff') format('woff'),
+         url('sfudinengalt-webfont.ttf') format('truetype'),
+         url('sfudinengalt-webfont.svg#sfu_dinengalt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'sfu_dinengschrift';
+    src: url('sfudinengschrift-webfont.eot');
+    src: url('sfudinengschrift-webfont.eot?#iefix') format('embedded-opentype'),
+         url('sfudinengschrift-webfont.woff') format('woff'),
+         url('sfudinengschrift-webfont.ttf') format('truetype'),
+         url('sfudinengschrift-webfont.svg#sfu_dinengschrift') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'sfu_dinlight';
+    src: url('sfudinlight-webfont.eot');
+    src: url('sfudinlight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('sfudinlight-webfont.woff') format('woff'),
+         url('sfudinlight-webfont.ttf') format('truetype'),
+         url('sfudinlight-webfont.svg#sfu_dinlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'sfu_dinmitalt';
+    src: url('sfudinmitalt-webfont.eot');
+    src: url('sfudinmitalt-webfont.eot?#iefix') format('embedded-opentype'),
+         url('sfudinmitalt-webfont.woff') format('woff'),
+         url('sfudinmitalt-webfont.ttf') format('truetype'),
+         url('sfudinmitalt-webfont.svg#sfu_dinmitalt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'sfu_dinmittelschrift';
+    src: url('sfudinmittelschrift-webfont.eot');
+    src: url('sfudinmittelschrift-webfont.eot?#iefix') format('embedded-opentype'),
+         url('sfudinmittelschrift-webfont.woff') format('woff'),
+         url('sfudinmittelschrift-webfont.ttf') format('truetype'),
+         url('sfudinmittelschrift-webfont.svg#sfu_dinmittelschrift') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'sfu_dinyyneugroboldcondensed';
+    src: url('sfudinneugroboldcondensed-webfont.eot');
+    src: url('sfudinneugroboldcondensed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('sfudinneugroboldcondensed-webfont.woff') format('woff'),
+         url('sfudinneugroboldcondensed-webfont.ttf') format('truetype'),
+         url('sfudinneugroboldcondensed-webfont.svg#sfu_dinyyneugroboldcondensed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'sfu_dinneugrolight';
+    src: url('sfudinneugrolight-webfont.eot');
+    src: url('sfudinneugrolight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('sfudinneugrolight-webfont.woff') format('woff'),
+         url('sfudinneugrolight-webfont.ttf') format('truetype'),
+         url('sfudinneugrolight-webfont.svg#sfu_dinneugrolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'sfu_eurostileboldcondensed';
+    src: url('sfueurostileboldcondensed-webfont.eot');
+    src: url('sfueurostileboldcondensed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('sfueurostileboldcondensed-webfont.woff') format('woff'),
+         url('sfueurostileboldcondensed-webfont.ttf') format('truetype'),
+         url('sfueurostileboldcondensed-webfont.svg#sfu_eurostileboldcondensed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'sfu_eurostileboldextendedtwo';
+    src: url('sfueurostileboldextendedtwo-webfont.eot');
+    src: url('sfueurostileboldextendedtwo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('sfueurostileboldextendedtwo-webfont.woff') format('woff'),
+         url('sfueurostileboldextendedtwo-webfont.ttf') format('truetype'),
+         url('sfueurostileboldextendedtwo-webfont.svg#sfu_eurostileboldextendedtwo') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'sfu_eurostileboldoblique';
+    src: url('sfueurostileboldoblique-webfont.eot');
+    src: url('sfueurostileboldoblique-webfont.eot?#iefix') format('embedded-opentype'),
+         url('sfueurostileboldoblique-webfont.woff') format('woff'),
+         url('sfueurostileboldoblique-webfont.ttf') format('truetype'),
+         url('sfueurostileboldoblique-webfont.svg#sfu_eurostileboldoblique') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'sfu_eurostilecondensed';
+    src: url('sfueurostilecondensed-webfont.eot');
+    src: url('sfueurostilecondensed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('sfueurostilecondensed-webfont.woff') format('woff'),
+         url('sfueurostilecondensed-webfont.ttf') format('truetype'),
+         url('sfueurostilecondensed-webfont.svg#sfu_eurostilecondensed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'sfu_eurostiledemi';
+    src: url('sfueurostiledemi-webfont.eot');
+    src: url('sfueurostiledemi-webfont.eot?#iefix') format('embedded-opentype'),
+         url('sfueurostiledemi-webfont.woff') format('woff'),
+         url('sfueurostiledemi-webfont.ttf') format('truetype'),
+         url('sfueurostiledemi-webfont.svg#sfu_eurostiledemi') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'sfu_eurostiledemioblique';
+    src: url('sfueurostiledemioblique-webfont.eot');
+    src: url('sfueurostiledemioblique-webfont.eot?#iefix') format('embedded-opentype'),
+         url('sfueurostiledemioblique-webfont.woff') format('woff'),
+         url('sfueurostiledemioblique-webfont.ttf') format('truetype'),
+         url('sfueurostiledemioblique-webfont.svg#sfu_eurostiledemioblique') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'sfu_eurostileextendedtwo';
+    src: url('sfueurostileextendedtwo-webfont.eot');
+    src: url('sfueurostileextendedtwo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('sfueurostileextendedtwo-webfont.woff') format('woff'),
+         url('sfueurostileextendedtwo-webfont.ttf') format('truetype'),
+         url('sfueurostileextendedtwo-webfont.svg#sfu_eurostileextendedtwo') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'sfu_eurostileoblique';
+    src: url('sfueurostileoblique-webfont.eot');
+    src: url('sfueurostileoblique-webfont.eot?#iefix') format('embedded-opentype'),
+         url('sfueurostileoblique-webfont.woff') format('woff'),
+         url('sfueurostileoblique-webfont.ttf') format('truetype'),
+         url('sfueurostileoblique-webfont.svg#sfu_eurostileoblique') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'sfu_eurostileregular';
+    src: url('sfueurostileregular-webfont.eot');
+    src: url('sfueurostileregular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('sfueurostileregular-webfont.woff') format('woff'),
+         url('sfueurostileregular-webfont.ttf') format('truetype'),
+         url('sfueurostileregular-webfont.svg#sfu_eurostileregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'utm_as_gracelandregular';
+    src: url('utm_as_graceland-webfont.eot');
+    src: url('utm_as_graceland-webfont.eot?#iefix') format('embedded-opentype'),
+         url('utm_as_graceland-webfont.woff') format('woff'),
+         url('utm_as_graceland-webfont.ttf') format('truetype'),
+         url('utm_as_graceland-webfont.svg#utm_as_gracelandregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'utm_bebasregular';
+    src: url('utm_bebas-webfont.eot');
+    src: url('utm_bebas-webfont.eot?#iefix') format('embedded-opentype'),
+         url('utm_bebas-webfont.woff') format('woff'),
+         url('utm_bebas-webfont.ttf') format('truetype'),
+         url('utm_bebas-webfont.svg#utm_bebasregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
