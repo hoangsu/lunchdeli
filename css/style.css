@@ -1,21 +1,109 @@
 @charset "utf-8";
 /* CSS Document */
+* {
+	margin: 0;
+	padding: 0
+}
+a {
+	text-decoration: none; color:inherit
+}
+img {
+	border: none
+}
+li {list-style-type:none; display:inline-block}
+body {
+	font: 16px arial, sans-serif;
+	color: #333333;
+}
+.left {float:left;}
+.right{float:right;}
+.clear {clear:both}
 span.customSelect {
-	font-size:11px;
-	background-color: #f5f0de;
-	color:#7c7c7c;
-	padding:5px 7px;
-	border:1px solid #e7dab0;
+	background-color: #eee1c4;
+	color: #b3282d;
+	padding: 5px 7px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	border-radius: 5px 5px;
 }
 span.customSelect.changed {
-	background-color: #f0dea4;
+	background-color: #eee1c4;
 }
 .customSelectInner {
-	background:url(../images/selection.png) no-repeat center right;
+	background: url(../images/selection.png) no-repeat center right;
 }
+.button {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 2px 1px -1px #000;
+	-moz-box-shadow: 0px 2px 1px -1px #000;
+	box-shadow: 0px 2px 1px -1px #000;
+	border: none;
+	width: 92px;
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
+	text-transform: uppercase;
+	display: inline-block;
+	font-family:arial;cursor:pointer
+}
+.button_l {
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: none;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+	font-size: 18px;
+	text-transform: uppercase;
+	display: inline-block;cursor:pointer
+}
+.red_button {
+	background-color: #b4252d;
+	color: #fff;
+}
+.org_button {
+	background-color: #f7be07;
+	color: #b3282d;
+}
+button,input {-webkit-appearance: none;-moz-appearance: none;appearance:none;}
+.brw_button {background-color:#7c1319;color:#eee1c4;  }
+.inner {width:1140px; margin:0 auto;}
+.header { }
+.top_header {height:56px; background-color:#f7be07; color:#b3282d;}
+.top_header .left >div,.top_header .right >div {display:inline-block;margin-top:13px; margin-right:15px; float:left;}
+.top_header .customSelect{width:91px}
+.top_header .customSelectInner {width:100% !important}
+.top_header .first_text {background:url(../images/chef.png) no-repeat left center; padding-left:30px; float:left; height:32px; line-height:32px; font-weight:bold}
+.top_header .days {float:left;}
+.top_header .days label {margin-right:10px; text-transform:uppercase}
+.top_header .days button {margin-left:15px;}
+.top_header .hotline {background:url(../images/phone.png) no-repeat 10px center; padding: 0 20px 0 40px; border-radius:20px;-moz-border-radius: 20px;
+	-webkit-border-radius: 20px; border:1px solid #b4252d; height:30px; line-height:30px; font-family:sfu_eurostilecondensed; font-size:18px;}
+.hotline .numb {color:#333333;margin-left:10px; font-family:sfu_eurostileboldoblique; font-size:16.8px;}
+.top_header div.login {margin-top:0}
+.top_header .login a {display:inline-block; background:url(../images/login.png) repeat-x 0 0; height:51px; width:118px; margin-right:5px; color:#eee1c4; text-align:center;font-family:sfu_eurostilecondensed; font-size:18px; text-transform:uppercase; line-height:48px}
+.main_header {background:url(../images/header.jpg) repeat-x 0 0; color:#fff; height:296px; position:relative; z-index:1}
+.main_header div.logo {margin-top:23px; float:left} 
+.main_header .subcribe {float:right; background:url(../images/not-banner.png) no-repeat left 30px; padding-left:117px; padding-top:53px; height:177px}
+.subcribe .bg { background:url(../images/subcribe.png) no-repeat 0 0; width:558px; height:118px;}
+.subcribe h1 {text-transform:uppercase; font-size:30px; color:#eee1c4; font-family:sfu_dinengalt; text-indent:-99999px;}
+.subcribe h2 {font-family:utm_as_gracelandregular; font-size:42.39px; font-weight:normal; text-indent:-9999px;color:#eee1c4;}
+.subcribe form {margin-left:56px; margin-top:-6px;}
+.subcribe input.input {border-radius:5px;-moz-border-radius: 5px;
+	-webkit-border-radius: 5px; background:#fff; border:none;height:30px; line-height:30px\9; padding-left:10px; width:290px; position:relative; z-index:2; float:left;}
+.subcribe button.brw_button {width:auto; padding:0 30px; margin-left:-5px;position:relative; z-index:1;-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px; border:none; height:30px; line-height:30px; font-size:16px; text-transform:uppercase}
+.main_menu {margin-top:-66px; position:relative; z-index:2}
+.main_menu .bg{background:url(../images/left-mn.png) left 0 no-repeat; padding-left:25px}
+.main_menu .bg1 {background:url(../images/right-mn.png) no-repeat right 0; padding-right:25px;}
+.main_menu ul {background:#7c1319; height:40px; line-height:40px; color:#f9be00; font-family:sfu_eurostilecondensed; font-size:19px;}
+.main_menu li {width:25%; vertical-align:top; float:left}
+.banner {position:relative; z-index:2}
 ul.tabs {
 	margin: 0;
 	padding: 0;

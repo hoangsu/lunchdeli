@@ -14,6 +14,7 @@ $(document).ready(function() {
 		$(activeTab).fadeIn(); //Fade in the active content
 		return false;
 	});
-	$(".ajax").colorbox();
- $('select.selection').customSelect();
+$('select.selection').customSelect();
+$(".ajax").colorbox();
+
 });
