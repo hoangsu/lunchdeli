@@ -1,0 +1,48 @@
+<div class="checkout ajaxpage">
+
+    <div class="content_ajax">
+    	 <ul class="tabs">
+                <li class="active"><a href="#tab6">Làm mới đối với Lunchdeli</a></li>
+                <li class=""><a href="#tab7">Đã là khách hàng</a></li>
+      </ul>
+ <div class="tab_container">
+                <div class="tab_content newuser" id="tab6" style="display: block;">    <div class="left">
+                <h3 class="title">Tạo tài khoản</h3>
+                 <form action="#" method="post" class="form">
+           <p><label>Email</label><input type="email" name="email" class="input_text"></p>
+            <p><label>Mật Khẩu</label><input type="password" name="password" class="input_text"></p>
+            <p><label>Nhập lại mật khẩu</label><input type="password" name="password" class="input_text"></p>
+       			 </form></div>
+                 <div class="right">
+                 <p class="title"><strong>Tận dụng lợi thế của một tài khoản</strong></p> 	
+                 <ul class="featured">
+                 	<li>Đặt hàng nhanh hơn và tiện hơn</li>
+                    <li>Lưu và sử dụng lại địa chỉ giao hàng của bạn</li><li>Đặt lại với chỉ 3 cú nhấp chuột</li>
+                 </ul>
+                 </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="tab_content exituser" id="tab7" style="display: none;">	<h3 class="title">Vui lòng đăng nhập</h3>
+                 <form action="#" method="post" class="form">
+           <p><label>Email</label><input type="email" name="email" class="input_text"></p>
+            <p><label>Mật Khẩu</label><input type="password" name="password" class="input_text"></p>
+            <p style="width:400px; float:right;"><a href="#"><em><u>Bạn đã quên mật khẩu?</u></em></a></p>
+              <div class="buttonset"><button type="submit" class="button_l org_button">Tiếp tục</button></div> 
+       			 </form>
+                </div>   
+              </div> 
+    	
+    </div>
+    <div class="clear"></div>
+</div>
+<script type="text/javascript">
+	//On Click Event
+	$("ul.tabs li").click(function() {
+		$("ul.tabs li").removeClass("active"); //Remove any "active" class
+		$(this).addClass("active"); //Add "active" class to selected tab
+		$(".tab_content").hide(); //Hide all tab content
+		var activeTab = $(this).find("a").attr("href"); //Find the rel attribute value to identify the active tab + content
+		$(activeTab).fadeIn(); //Fade in the active content
+		return false;
+	});
+</script>

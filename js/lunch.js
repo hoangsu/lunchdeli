@@ -16,5 +16,6 @@ $(document).ready(function() {
 	});
 $('select.selection').customSelect();
 $(".ajax").colorbox();
+$(".ajax1").colorbox({close:'<span class="close1"></span>'});
 
 });
