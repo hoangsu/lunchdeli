@@ -74,7 +74,6 @@ span.customSelect.changed {
 	background-color: #f7be07;
 	color: #b3282d;
 }
-button,input {-webkit-appearance: none;-moz-appearance: none;appearance:none;}
 .brw_button {background-color:#7c1319;color:#eee1c4;  }
 .inner {width:1140px; margin:0 auto;}
 .header { }
@@ -211,3 +210,13 @@ ul.products {display:block; background:url(../images/products.png) no-repeat 0 b
 .exituser { padding-top:40px;}
 .exituser h3.title {padding-left:200px;}
 .userinfo .title_ajax h1 {background-image:url(../images/userinfo-title.png); width:434px; padding-right:30px; background-color:#fff}
+.userinfo.ajaxpage form {width:100%;}
+.userinfo.ajaxpage form .bg {width:600px; margin:auto}
+.success .title .left, .success .title .right {border-top:2px solid #b3282d; width:343px;height:26px; margin-top:52px; }
+.success .title .left {background:url(../images/title-ct-k.png) no-repeat left top; }
+.success .title .right{background:url(../images/title-ct.png) no-repeat right top;}
+.success .title h1 {display:inline-block; width:250px; text-align:center; text-transform:uppercase; color:#b3282d; margin-top:25px;}
+.success.ajaxpage {width:940px; padding:0 65px 60px;}
+.order {margin-top:60px;}
+.order thead td {border-bottom:2px solid #b3282d; text-transform:uppercase; color:#b3282d; font-weight:bold; font-size:14px;}
+.order td {padding:10px}
